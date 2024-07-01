@@ -1,0 +1,109 @@
+.text-primary{
+    color: #FEA116  !important
+}
+
+h1#headtitle{
+    color: #FEA116 !important;
+}
+.bg-body-tertiary {
+    background-color: #0F172B !important;
+    margin: 0 !important;
+}
+.navbar-brand, .nav-item {
+    color: #ffffff !important;
+}
+.me-2{
+    width: 14em !important;
+}
+a.nav-link {
+    color: #ffffff !important;
+    position: relative;
+    padding: 5px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Heebo",sans-serif;
+}
+#searchbtn{
+    background-color: #FEA116;
+    color: #ffffff;
+    border: #FEA116;
+    padding: 7px;
+    border-radius: 4px;
+}
+#searchres{
+    background-color: #FEA116;
+    border: #FEA116;    
+}
+#searchres:hover{
+    background-color: #ffffff;
+    border: 2px solid #FEA116;
+    color: #FEA116;    
+    
+}
+#searchbtn:hover{
+    border: 2px solid #FEA116;
+    color: #FEA116;
+    background-color: #ffffff;
+    transition: background-color 0.6s;
+}
+a.nav-link:hover{
+    color: #FEA116 !important;
+}
+.navbar-toggler{
+    color: #FEA116 !important;
+    background-color: #FEA116 !important;
+}
+.fa-utensils {
+    text-decoration: none !important;
+}
+
+.navbar-expand-lg {
+    background-color: #0f172bee !important;
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+}
+.dropdown-toggle{
+    background-color: #FEA116 !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: -5em !important;
+    top: 14px;
+}
+.dropdown-menu[data-bs-popper]:hover{
+    background-color: #FEA116 !important;
+    color: #ffffff;
+}
+a.dropdown-item:hover{
+    color: #FEA116 !important;
+}
+a.-bs-dropdown-link-active-bg{
+    color: #ffffff !important;
+    background-color: #FEA116;
+} 
+a.dropdown-item{
+    color: orange !important;
+}
+
+@media (max-width: 992px) {
+    .navbar-expand-lg {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .navbar-toggler-icon{
+        color: #ffffff!important;
+    }
+    .h1#headtitle{
+        text-align: center !important;
+    }
+    .me-2
+    {
+        width: 200px!important;
+    }
+    .dropdown-menu[data-bs-popper] {
+        left: 0em !important;
+        top: 14px;
+    }
+}

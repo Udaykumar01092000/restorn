@@ -1,0 +1,45 @@
+.custom-card{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+.card-img-top {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+  }
+.bi-star-fill{
+    color: #FEA116;
+}
+.fa-motorcycle{
+    color: #FEA116;
+}
+.card-title{
+    color: #0F172B;
+    font-weight: 700;
+    font-family:  "Nunito", sans-serif;
+    font-size: 1.25rem;
+}
+.card:hover{
+    cursor: pointer;
+}
+.menubtn{
+    background-color: #FEA116;
+    color: #ffffff;
+    border: 2px solid #FEA116;
+}
+.menubtn:hover{
+    border: 2px solid #FEA116;
+    color: #FEA116;
+    background-color: #ffffff;
+}
+.dropdown-toggle{
+    background-color: #FEA116 !important;
+    border: 1px solid #FEA116;
+}
+.dropdown-toggle:hover{
+    border: 2px solid #FEA116 !important;
+    background-color: #ffffff!important;
+    color: #FEA116 !important;
+}

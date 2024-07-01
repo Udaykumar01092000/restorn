@@ -1,0 +1,53 @@
+.print-bill-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #0F172B;
+}
+.restaurant-name{
+    color: #ffffff;
+}
+.bill-id {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.bill-items {
+    margin-bottom: 20px;
+}
+
+.bill-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.bill-summary {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.bill-text{
+    color: #ffffff;
+}
+.bill-head{
+    color: #FEA116;
+}
+.print-bill-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FEA116;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.print-bill-button:hover {
+    background-color: #ffffff;
+    border: 2px solid #FEA116;
+    color: #FEA116;
+}
+.restaurant-name{
+    color: #FEA116;
+}

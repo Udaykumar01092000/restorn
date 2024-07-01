@@ -1,0 +1,28 @@
+.restaurant-view{
+    background-color: #fea116;
+   margin: 0px 0px 8px 0px;
+   color: #ffffff;
+   border: #fea116;
+   padding: 7px;
+   border-radius: 10px;
+}
+#card-desc{
+    text-align: justify;
+}
+#dishescard{
+    border: 2px solid #04216b !important;
+}
+.restaurant-view:hover{
+    border: 2px solid #fea116;
+    background-color: #ffffff;
+    color: #fea116;
+    transition: background-color 0.5s;
+}
+
+#restaurantname{
+    color: #04216b !important;
+    font-size: 29px;
+}
+.card-rating{
+    color: #04216b !important;
+}

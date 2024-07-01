@@ -1,0 +1,49 @@
+.card{
+    height: auto;
+    padding: 5px;
+}
+
+.food-pic {
+    height: 250px;
+}
+.restaurant-title{
+    color: #f09104;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.category.collapsed{
+    color: #0f172bee;
+    font-size: 18px;
+}
+.accordion-header {
+    z-index: 1;
+    border: 2px solid #FEA116 !important;
+}
+.accordion-header:not(.collapsed){
+    border: none !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #0f172bee !important;
+    color: #ffffff !important;
+    box-shadow: none;
+}
+
+.accordion-button.collapsed {
+    color: black;
+}
+
+.accordion-icon {
+    transition: transform 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) .fa-chevron-down {
+    transform: rotate(180deg);
+}
+
+.accordion-button.collapsed .fa-chevron-up {
+    transform: rotate(0deg);
+}
+.quantity-input{
+    width: 90%;
+}

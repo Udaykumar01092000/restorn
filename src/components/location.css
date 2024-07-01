@@ -1,0 +1,19 @@
+input.location-name:hover{
+    background: green;
+    cursor: pointer;
+}
+.modal-header{
+    background-color: #0F172B;
+    color: #ff9900;
+}
+.locationbtn{
+    background-color: #ff9900;
+    color: #ffffff;
+    border: none;
+    padding: 9px 5px;
+    border-radius: 10px;
+}
+label{
+    display: block;
+    text-align: start;
+}

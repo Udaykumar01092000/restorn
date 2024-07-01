@@ -1,0 +1,115 @@
+.cart-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #0f172bee;
+    border-radius: 10px;
+    color: #ffffff;
+}
+#removecart{
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#removecart:hover{
+    border: 2px solid #dc3545;
+    background-color: #ffffff;
+    color: #dc3545;
+}
+.removecart{
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.removecart:hover{
+    border: 2px solid #dc3545;
+    background-color: #ffffff;
+    color: #dc3545;
+}
+.cart-items {
+    flex: 2;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.cart-summary {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    height: fit-content;
+}
+.header{
+    color: #FEA116;
+}
+.restitle{
+    color: navy;
+}
+.cart-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.cart-item img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.cart-item-details,
+.cart-item-price,
+.cart-item-quantity,
+.cart-item-total {
+    margin-bottom: 10px;
+}
+/* 
+    8639285090
+*/
+.cart-summary-item {
+    margin-bottom: 10px;
+}
+
+.order{
+    background : #198754  !important;
+    color: #ffffff;
+    border: #198754;
+    padding: 8px;
+    border-radius: 10px;
+}
+.order:hover{
+    border : 2px solid #198754 !important;
+    background : #ffffff !important;
+    color: #198754 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .cart-container {
+        flex-direction: column;
+    }
+
+    .cart-summary {
+        margin-left: 0;
+    }
+}
