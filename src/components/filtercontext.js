@@ -32,10 +32,15 @@ export const FilterProvider = ({ children }) => {
   
 
   useEffect(() => {
-    // Reapply filters whenever filters or userSearch changes
-    applyFilters();
-  }, [filters, userSearch]);
-
+    // Define a function that calls applyFilters
+    const handleApplyFilters = () => {
+      applyFilters();
+    };
+  
+    // Call the function whenever filters or userSearch changes
+    handleApplyFilters();
+  }, [filters, userSearch, applyFilters]);
+  
   return (
     <FilterContext.Provider value={{ filters, setFilters, applyFilters, userSearch, setUserSearch }}>
       {children}
